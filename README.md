@@ -1,16 +1,15 @@
 # t3aihackathon_MatiricieX
- MatiricieX
 
 *Bu proje TEKNOFEST 2024 Antalya T3AI Hackathon Yarışması Uygulama Geliştirme Kategorisi için geliştirilmiştir.*
 
 # EduFlex
-## Projede neyin amaçlandığını bir cümle ile özetleme: Kimin, hangi problemini, nasıl çözüyorsunuz
+## Her öğrenciye özel, öğrenmeyi kişiselleştiren yapay zeka destekli çözüm!
 
 ````
 
 ````
 
-## Takım Adı: Takım ID
+## MatiricieX: 2318600
 - 👤 Kerem Yıldız
 - 👤 Beril Yenice
 - 👤 Mert Hızmalı
