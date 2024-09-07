@@ -13,10 +13,19 @@
 
 ## Uygulamadan Ekran Görüntüleri
 
+<p align="center">
+  <img src="https://i.hizliresim.com/p0fwtzn.jpeg" alt="Ekran Görüntüsü 1" width="300">
+  <img src="https://i.hizliresim.com/dt3tbxv.jpeg" alt="Ekran Görüntüsü 2" width="300">
+  <img src="https://i.hizliresim.com/5acm18t.jpeg" alt="Ekran Görüntüsü 3" width="300">
+</p>
+
 ## Uygulama Tanıtım Videosu
 
-[![EduFlex Tanıtım Videosu](https://img.youtube.com/vi/z6bSPNgeD9Y/0.jpg)](https://www.youtube.com/watch?v=z6bSPNgeD9Y)
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=z6bSPNgeD9Y">
+    <img src="https://i.hizliresim.com/3uuuc3f.jpg" alt="EduFlex Tanıtım Videosu" width="300">
+  </a>
+</p>
 
 ## Uygulamayı Lokalde Çalıştırma
 ```bash
