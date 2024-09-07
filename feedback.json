@@ -1,0 +1,87 @@
+[
+    {
+        "interaction_id": "12345",
+        "user_id": "user_001",
+        "timestamp": "2024-09-06T20:08:31.177690Z",
+        "content_generated": {
+            "input_prompt": "",
+            "response": ""
+        },
+        "user_feedback": {
+            "rating": "dislike",
+            "feedback_text": "",
+            "preferred_response": ""
+        },
+        "feedback_metadata": {
+            "device": "unknown",
+            "location": "unknown",
+            "session_duration": 0
+        }
+    },
+    {
+        "interaction_id": "12345",
+        "user_id": "013b28f8-4138-456e-a729-5e9dfa453389",
+        "timestamp": "2024-09-07T08:10:09.920980Z",
+        "content_generated": {
+            "input_prompt": "anlat bakalım biraz",
+            "response": ":\n\nTabii ki! İlk olarak, lütfen bana böbreklerin ne olduğunu açıklayabilir misiniz?"
+        },
+        "user_feedback": {
+            "rating": "like",
+            "feedback_text": "",
+            "preferred_response": ""
+        },
+        "feedback_metadata": {
+            "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "location": {
+                "latitude": 36.9400987,
+                "longitude": 30.8171081
+            },
+            "session_duration": 51.538
+        }
+    },
+    {
+        "interaction_id": "12345",
+        "user_id": "9711cc23-c33a-433f-982a-17b92d23706a",
+        "timestamp": "2024-09-07T08:12:28.104616Z",
+        "content_generated": {
+            "input_prompt": "Bana Kemiğin yapısını anlatır mısın",
+            "response": ":\n\nTabii ki! İşte kemik dokusunun yapısı hakkında bilgi veren bir açıklama:\n\nKemik dokusu, vücudu destekleyen, koruyan ve çeşitli işlevleri yerine getiren sert, yoğun bir dokudur. Üç ana tipten oluşur: kompakt kemik, trabeküler kemik ve süngerimsi kemik.\n\n1. Kompakt Kemik: Bu tip kemik, güçlü ve serttir ve genellikle uzun kemiklerin merkezi bölümünde bulunur. Kompakt kemik, osteosit adı verilen hücreler tarafından doldurulmuş lameller adı verilen tabaka halinde organize edilmiş bir matrise sahiptir. Matris, hem organik hem de inorganik maddelerin karışımından oluşur ve ossein olarak adlandırılır. Kompakt kemik ayrıca kan damarlarını ve sinirleri barındırabilen lakün adı verilen boşluklara sahiptir.\n\n2. Trabeküler Kemik: Bu tip kemik, kafatası, omurga ve pelvis gibi kemiklerin iç kısmında bulunur. Trabeküler kemik, kompakt kemikten daha gözenekli ve deliklidir, bu da ona hafif ama sağlam bir yapı kazandırır. Trabeküler kemikte, osteositler daha düzensiz bir şekilde dağıtılmıştır ve lakünler daha büyük ve daha yaygındır.\n\n3. Süngerimsi Kemik: Bu tip kemik, uzun kemiklerin uçları ve kısa kemiklerin içinde bulunur. Süngerimsi kemik, trabeküler kemikten daha gözenekli ve deliklidir, bu da ona hava cepleri ve kan damarları için bolca alan sağlar. Süngerimsi kemikteki lakünler daha büyük ve daha yaygındır ve kırmızı kemik iliği ile doludur.\n\nGenel olarak, kemik dokusu, vücudun şekline şekil vermek, destek sağlamak, hareketi mümkün kılmak, iç organları korumak, kan hücreleri üretmek ve mineralleri depolamak gibi birçok hayati rol oynar."
+        },
+        "user_feedback": {
+            "rating": "like",
+            "feedback_text": "",
+            "preferred_response": ""
+        },
+        "feedback_metadata": {
+            "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "location": {
+                "latitude": 36.9400461,
+                "longitude": 30.817103
+            },
+            "session_duration": 54.99
+        }
+    },
+    {
+        "interaction_id": "12345",
+        "user_id": "a6ed6d1e-0cfe-45b5-b71e-91c3d7e6135c",
+        "timestamp": "2024-09-07T08:13:10.244903Z",
+        "content_generated": {
+            "input_prompt": "Bana Kemiğin yapısını anlatır mısın",
+            "response": ":\n\nTabii ki! İşte kemik dokusunun yapısı hakkında bilgi veren bir açıklama:\n\nKemik dokusu, vücudu destekleyen, koruyan ve çeşitli işlevleri yerine getiren sert, yoğun bir dokudur. Üç ana tipten oluşur: kompakt kemik, trabeküler kemik ve süngerimsi kemik.\n\n1. Kompakt Kemik: Bu tip kemik, güçlü ve serttir ve genellikle uzun kemiklerin merkezi bölümünde bulunur. Kompakt kemik, osteosit adı verilen hücreler tarafından doldurulmuş lameller adı verilen tabaka halinde organize edilmiş bir matrise sahiptir. Matris, hem organik hem de inorganik maddelerin karışımından oluşur ve ossein olarak adlandırılır. Kompakt kemik ayrıca kan damarlarını ve sinirleri barındırabilen lakün adı verilen boşluklara sahiptir.\n\n2. Trabeküler Kemik: Bu tip kemik, kafatası, omurga ve pelvis gibi kemiklerin iç kısmında bulunur. Trabeküler kemik, kompakt kemikten daha gözenekli ve deliklidir, bu da ona hafif ama sağlam bir yapı kazandırır. Trabeküler kemikte, osteositler daha düzensiz bir şekilde dağıtılmıştır ve lakünler daha büyük ve daha yaygındır.\n\n3. Süngerimsi Kemik: Bu tip kemik, uzun kemiklerin uçları ve kısa kemiklerin içinde bulunur. Süngerimsi kemik, trabeküler kemikten daha gözenekli ve deliklidir, bu da ona hava cepleri ve kan damarları için bolca alan sağlar. Süngerimsi kemikteki lakünler daha büyük ve daha yaygındır ve kırmızı kemik iliği ile doludur.\n\nGenel olarak, kemik dokusu, vücudun şekline şekil vermek, destek sağlamak, hareketi mümkün kılmak, iç organları korumak, kan hücreleri üretmek ve mineralleri depolamak gibi birçok hayati rol oynar."
+        },
+        "user_feedback": {
+            "rating": "dislike",
+            "feedback_text": "Daha kısa bilgilendirmeler yapabiilir",
+            "preferred_response": "\n1. Kompakt Kemik: Bu tip kemik, güçlü ve serttir ve genellikle uzun kemiklerin merkezi bölümünde bulunur. Kompakt kemik, osteosit adı verilen hücreler tarafından doldurulmuş lameller adı verilen tabaka halinde organize edilmiş bir matrise sahiptir. Matris, hem organik hem de inorganik maddelerin karışımından oluşur ve ossein olarak adlandırılır. Kompakt kemik ayrıca kan damarlarını ve sinirleri barındırabilen lakün adı verilen boşluklara sahiptir.\n\n2. Trabeküler Kemik: Bu tip kemik, kafatası, omurga ve pelvis gibi kemiklerin iç kısmında bulunur. Trabeküler kemik, kompakt kemikten daha gözenekli ve deliklidir, bu da ona hafif ama sağlam bir yapı kazandırır. Trabeküler kemikte, osteositler daha düzensiz bir şekilde dağıtılmıştır ve lakünler daha büyük ve daha yaygındır.\n\n3. Süngerimsi Kemik: Bu tip kemik, uzun kemiklerin uçları ve kısa kemiklerin içinde bulunur. Süngerimsi kemik, trabeküler kemikten daha gözenekli ve deliklidir, bu da ona hava cepleri ve kan damarları için bolca alan sağlar. Süngerimsi kemikteki lakünler daha büyük ve daha yaygındır ve kırmızı kemik iliği ile doludur."
+        },
+        "feedback_metadata": {
+            "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            "location": {
+                "latitude": 36.9400461,
+                "longitude": 30.817103
+            },
+            "session_duration": 97.129
+        }
+    }
+]

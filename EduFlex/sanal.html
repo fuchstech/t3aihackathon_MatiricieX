@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="tr">
+   <head>
+      <!-- Temel -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Mobil uyum -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Sanal Sözlü - EduFlex</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <style>
+         body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+         }
+         header, footer {
+            background-color: #0c0f38;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+         }
+         .content {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+         }
+         .form-group {
+            margin-bottom: 20px;
+         }
+         label {
+            font-weight: bold;
+         }
+         select, input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+         }
+         video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+         }
+         .response-section {
+            margin-top: 30px;
+         }
+         .response-section label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+         }
+         .response-section textarea {
+            height: 100px;
+            resize: none;
+         }
+         .controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+         }
+         .controls button, .mic-btn {
+            background-color: #fdd430;
+            color: #0c0f38;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+         }
+         .controls .mic-btn {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+         }
+         .controls button:hover, .controls .mic-btn:hover {
+            background-color: #e5c20c;
+         }
+         .predefined-response {
+            font-size: 18px;
+            margin-bottom: 20px;
+            background-color: #eef;
+            padding: 10px;
+            border-radius: 5px;
+         }
+         .student-response {
+            font-size: 18px;
+            margin-bottom: 20px;
+            background-color: rgb(157, 157, 160);
+            padding: 10px;
+            border-radius: 5px;
+         }
+         .hidden {
+            display: none;
+         }
+      </style>
+   </head>
+   <body class="main-layout">
+
+      <!-- Header -->
+      <header>
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html">
+                                 <img src="images/matiricie.png" alt="Logo" style="max-width: 250px; max-height: 100px;" />
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item"><a class="nav-link" href="dashboard.html">Anasayfa</a></li>
+                              <li class="nav-item"><a class="nav-link" href="konu.html">Konu Anlatımı</a></li>
+                              <li class="nav-item active"><a class="nav-link" href="sanal.html">Sanal Sözlü</a></li>
+                              <li class="nav-item"><a class="nav-link" href="yks.html">YKS Hazırlık</a></li>
+                              <li class="nav-item" ><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                              <li class="nav-item"><a class="nav-link" href="index.html">Çıkış</a></li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <!-- Main Content -->
+      <div class="content">
+         <!-- Ders, Sınıf ve Konu Seçimi -->
+         <div class="form-group">
+            <label for="ders">Ders Seçimi:</label>
+            <select id="ders">
+               <option value="fizik">Fizik</option>
+               <option value="kimya">Kimya</option>
+               <option value="biyoloji">Biyoloji</option>
+               <option value="matematik">Matematik</option>
+               <option value="tarih">Tarih</option>
+               <option value="cografya">Coğrafya</option>
+               <option value="edebiyat">Edebiyat</option>
+               <option value="felsefe">Felsefe</option>
+               <option value="din">Din Kültürü ve Ahlak Bilgisi</option>
+            </select>
+         </div>
+
+         <div class="form-group">
+            <label for="sinif">Sınıf Seçimi:</label>
+            <select id="sinif">
+               <option value="9">9. Sınıf</option>
+               <option value="10">10. Sınıf</option>
+               <option value="11">11. Sınıf</option>
+               <option value="12">12. Sınıf</option>
+            </select>
+         </div>
+
+         <div class="form-group">
+            <label for="konu">Konu Seçimi:</label>
+            <select id="konu">
+                <option value="sinir-sistemi">Sinir Sistemi</option>
+                <option value="sindirim-sistemi">Sindirim Sistemi</option>
+                <option value="solunum-sistemi">Solunum Sistemi</option>
+                <option value="bosaltim-sistemi">Boşaltım Sistemi</option>
+                <option value="dolasim-sistemi">Dolaşım Sistemi</option>
+                <option value="endokrin-sistem">Endokrin Sistem</option>
+                <option value="destek-hareket-sistemi">Destek Hareket Sistemi</option>
+                <option value="duyu-organlari">Duyu Organları</option>
+                <option value="ureme-sistemi">Üreme Sistemi</option>
+                <option value="ekoloji">Ekoloji</option>
+            </select>
+        </div>
+        
+
+         <!-- Video -->
+         <video id="lessonVideo" muted playsinline>
+            <source src="t3aikonusma.mp4" type="video/mp4">
+            Tarayıcınız bu videoyu desteklemiyor.
+         </video>
+         
+
+         <!-- Predefined Response Section -->
+         <div class="predefined-response">
+            <span id="responseText">Beyin hangi bölümlerden oluşur ve bu bölümlerin görevleri nelerdir?</span>
+            <button id="playResponse" class="mic-btn">🔊</button>
+         </div>
+
+         <div id="hiddenResponse" class="student-response hidden">
+            Beyin düşünür, beyincik denge sağlar, beyin sapı hayati fonksiyonları kontrol eder.
+         </div>
+
+         <div id="hiddenResponse" class="predefined-response hidden">
+            Doğru, tebrik ederim!  <br>
+Beyin üç ana bölümden oluşur:
+Beyin (cerebrum): Bilinçli düşünme, hafıza, dil ve öğrenme gibi işlevlerden sorumludur.
+Beyincik (cerebellum): Denge, hareket koordinasyonu ve kas kontrolünü sağlar.
+Beyin sapı: Hayati işlevlerin (nefes alma, kalp atışı) kontrol edildiği bölgedir.
+            <button id="playResponse" class="mic-btn">🔊</button>
+         </div>
+         <div style="margin-top: 10px;">
+            <span id="likeBtn" style="cursor: pointer;">👍</span>
+            <span id="dislikeBtn" style="cursor: pointer;">👎</span>
+         </div>
+      
+         <!-- Beğenmeme İçin Açıklama Kısmı (Başlangıçta Gizli) -->
+         <div id="dislikeFeedback" style="display: none; margin-top: 10px;">
+            <label for="feedbackInput">Lütfen yaşadığınız sorunu açıklayın:</label>
+            <input type="text" id="feedbackInput" style="width: 100%; padding: 5px; margin-bottom: 10px;" placeholder="Açıklamanızı yazın...">
+            <button id="submitFeedback">Tamam</button>
+         </div>
+
+         <!-- User Response Section -->
+         <div class="response-section">
+            <label for="cevap">Haydi Sor!</label>
+            <textarea id="cevap" placeholder="Sorunuzu buraya yazın..."></textarea>
+
+            <div class="controls">
+               <button id="recordButton" class="mic-btn">🎤</button>
+               <button id="submitButton" type="button">Gönder</button>
+            </div>
+         </div>
+      </div>
+
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 text-center">
+                     <p>© 2024 MatiricieX. Tüm Hakları Saklıdır.</p>
+                     <br>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script>
+           document.getElementById('likeBtn').addEventListener('click', function() {
+      window.alert('Teşekkürler! Geri bildiriminiz alındı.');
+   });
+
+   document.getElementById('dislikeBtn').addEventListener('click', function() {
+      document.getElementById('dislikeFeedback').style.display = 'block'; // Beğenmeme açıklama alanını göster
+   });
+
+   // Geri bildirim gönderildiğinde
+   document.getElementById('submitFeedback').addEventListener('click', function() {
+      const feedback = document.getElementById('feedbackInput').value;
+      if (feedback.trim()) {
+         window.alert('Teşekkürler! Geri bildiriminiz alındı.');
+         document.getElementById('dislikeFeedback').style.display = 'none'; // Geri bildirim alanını tekrar gizle
+         document.getElementById('feedbackInput').value = ''; // Input alanını temizle
+      } else {
+         window.alert('Lütfen bir açıklama girin.');
+      }
+   });
+         // Sayfadaki tüm butonları seçiyoruz
+         const buttons = document.querySelectorAll('button');
+
+         // Videoyu döngüde oynatmak için video elementini seçiyoruz
+         const video = document.getElementById('lessonVideo');
+
+         // Videoya loop özelliğini ekliyoruz
+         video.loop = true;
+
+         // Tüm butonlara tıklama olayını ekliyoruz
+         buttons.forEach(function(button) {
+   button.addEventListener('click', function() {
+      try {
+         video.play();
+      } catch (error) {
+         console.error("Video oynatılamadı: ", error);
+      }
+
+      video.addEventListener('play', function() {
+   console.log("Video oynatılmaya başlandı.");
+});
+
+   });
+});
+
+
+         // Speech recognition to convert voice to text
+         const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+         recognition.lang = 'tr-TR'; // Turkish recognition
+
+         document.getElementById('recordButton').addEventListener('click', function() {
+            recognition.start();
+         });
+
+         recognition.onresult = function(event) {
+            document.getElementById('cevap').value = event.results[0][0].transcript;
+         };
+
+         recognition.onerror = function(event) {
+            console.error('Speech recognition error detected: ' + event.error);
+         };
+
+         // Automatically play/pause video based on audio playing in the browser
+         function monitorAudioState() {
+           // AudioContext'i sayfa yüklendiğinde başlatmak yerine kullanıcı tıklamasıyla başlat
+const context = new (window.AudioContext || window.webkitAudioContext)();
+const video = document.getElementById('lessonVideo');
+
+// Tüm butonlara tıklama olayını ekliyoruz
+buttons.forEach(function(button) {
+   button.addEventListener('click', function() {
+      video.play();
+      // Kullanıcı bir butona tıkladığında AudioContext'i başlat
+      if (context.state === 'suspended') {
+         context.resume();
+      }
+
+      try {
+         video.play();
+         console.log("Video oynatılmaya başlandı.");
+      } catch (error) {
+         console.error("Video oynatılamadı: ", error);
+      }
+   });
+});
+
+document.getElementById('submitButton').addEventListener('click', function() {
+    // Select all elements with the class "hidden"
+    const hiddenElements = document.querySelectorAll('.hidden');
+    
+    // Iterate over each hidden element, remove the "hidden" class, and read the content aloud
+    hiddenElements.forEach(function(element) {
+        element.classList.remove('hidden');
+        
+        // Read the content of the element aloud
+        const msg = new SpeechSynthesisUtterance(element.textContent);
+        msg.lang = 'tr-TR'; // Set the language to Turkish
+        window.speechSynthesis.speak(msg);
+    });
+});
+
+
+            // Monitor changes in the audio context
+            context.onstatechange = checkState;
+
+            // Check audio state every second (in case of external audio starting or stopping)
+            setInterval(checkState, 1000);
+
+            // Resume the context to make sure it can track audio changes
+            context.resume();
+         }
+
+         window.onload = function() {
+            monitorAudioState(); // Call function to monitor audio state
+         };
+      </script>
+   </body>
+</html>
