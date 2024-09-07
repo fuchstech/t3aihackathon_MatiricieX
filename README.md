@@ -5,7 +5,7 @@
 # EduFlex
 ## Her öğrenciye özel, öğrenmeyi kişiselleştiren yapay zeka destekli çözüm!
 
-````
+
 
 
 ## MatiricieX: 2318600
@@ -18,7 +18,7 @@
 ## Uygulamadan Ekran Görüntüleri
 
 ## Uygulamayı Lokalde Çalıştırma
-....
+````
 pip install -r requirements.txt
 python3 subjectflask.py
 navigate to -> http://127.0.0.1:5000/
