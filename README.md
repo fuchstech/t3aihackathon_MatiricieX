@@ -5,9 +5,6 @@
 # EduFlex
 ## Her öğrenciye özel, öğrenmeyi kişiselleştiren yapay zeka destekli çözüm!
 
-[![EduFlex Tanıtım Videosu](https://img.youtube.com/vi/z6bSPNgeD9Y/0.jpg)](https://www.youtube.com/watch?v=z6bSPNgeD9Y)
-*Videoyu izlemek için yukarıya tıklayın.*
-
 ## MatiricieX: 2318600
 - 👤 Kerem Yıldız
 - 👤 Beril Yenice
@@ -15,6 +12,12 @@
 - 👤 Kadircan Bilir
 
 ## Uygulamadan Ekran Görüntüleri
+
+## Uygulama Tanıtım Videosu
+
+[![EduFlex Tanıtım Videosu](https://img.youtube.com/vi/z6bSPNgeD9Y/0.jpg)](https://www.youtube.com/watch?v=z6bSPNgeD9Y)
+*Videoyu izlemek için yukarıya tıklayın.*
+
 
 ## Uygulamayı Lokalde Çalıştırma
 ```bash
