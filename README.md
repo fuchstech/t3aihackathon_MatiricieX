@@ -15,7 +15,7 @@
 
 ## Uygulama Tanıtım Videosu
 
-[![EduFlex Tanıtım Videosu](https://img.youtube.com/vi/z6bSPNgeD9Y/1.jpg)](https://www.youtube.com/watch?v=z6bSPNgeD9Y)
+[![EduFlex Tanıtım Videosu](https://img.youtube.com/vi/z6bSPNgeD9Y/0.jpg)](https://www.youtube.com/watch?v=z6bSPNgeD9Y)
 
 
 ## Uygulamayı Lokalde Çalıştırma
